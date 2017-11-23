@@ -1,8 +1,10 @@
 [home]
 127.0.0.1
 [hadoop]
-192.168.200.100 ansible_ssh_pass=12345Password! ansible_ssh_user=ansible
-192.168.200.101 ansible_ssh_pass=12345Password! ansible_ssh_user=ansible
-192.168.200.102 ansible_ssh_pass=12345Password! ansible_ssh_user=ansible
-192.168.200.103 ansible_ssh_pass=12345Password! ansible_ssh_user=ansible
-192.168.200.104 ansible_ssh_pass=12345Password! ansible_ssh_user=ansible
+10.0.0.203 ansible_ssh_pass=12345Password! ansible_ssh_user=ansible
+[puppetmaster]
+10.0.0.15 ansible_ssh_pass=12345Password! ansible_ssh_user=ansible
+[bind]
+10.0.0.25 ansible_ssh_pass=12345Password! ansible_ssh_user=ansible
+[docker]
+10.0.0.30 ansible_ssh_pass=12345Password! ansible_ssh_user=ansible
